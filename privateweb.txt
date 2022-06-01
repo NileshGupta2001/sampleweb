@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>First Example of HTML SITE DEPLOYED THROUGH AZURE WEBAPP SERVICES</title>
+	<meta name="description" content="A sample website, nothin fancy">
+      <meta http-equiv="author" content="Francisco Campos Arias">
+      <meta name="keywords" content="html, css, web, design, sample, practice">
+      <style>
+      h1{
+      color: #796C38;
+  font-family: Times New Roman;
+  font-size: 190%;
+      }
+       h2{
+      color: #A5870A;
+  font-family: Times New Roman;
+  font-size: 150%;
+      }
+      h3{
+      color: #A5870A;
+  font-family: Courier New;
+  font-size: 130%;
+      }
+      h1::selection {
+            background: #D9FE36;
+            color: #FDD225;
+        }
+          
+        h2::selection {
+            background: blue;
+            color: red;
+        }
+        h3::selection {
+            background: blue;
+            color: red;
+        }
+        p {
+  border: 2px solid #E3CA62;
+  margin: 50px;
+  padding: 20px;
+  color: #796C38;
+  font-family: Brush Script MT;
+  font-size: 160%;
+}
+        </style>
+	<link rel="stylesheet" href="style.css">
+	<script src="http://localhost:8080/target/target-script-min.js#anonymous"></script>
+</head>
+<body>
+	<div class="container">
+	<header>
+		<div class="header">
+			<h1 > LEARNING MICROSOFT AZURE CLOUD</h1>
+		</div>
+	</header>
+	<!-- END HEADER | the header element in new to HTML5 -->
+		<div class="main">
+			<h2>Example website made by Nilesh Gupta.</h2>
+		</div>
+		<div class="feature">
+			<h3>Question: What is Azure?</h3>
+			<p>Azure is a continually expanding set of cloud services that help your organization meet your current and future business challenges. Azure gives you the freedom to build, manage, and deploy applications on a massive global network using your favorite tools and frameworks.</p>
+		</div>
+		<div class="feature">
+			<h3>Question: What is a Azure webapp?</h3>
+			<p>App Service Web Apps is a fully managed compute platform that is optimized for hosting websites and web applications. This platform-as-a-service (PaaS) offering of Microsoft Azure lets you focus on your business logic while Azure takes care of the infrastructure to run and scale your apps.</p>
+		</div>
+        <div class="feature">
+			<h3>Question: What is cloud? </h3>
+			<p>A cloud is a combination of services, networks, hardware, storage, and interfaces that helps in delivering computing as a service.</p>
+		</div>
+	<footer>
+		&copy;Created using HTML AND CSS STYLING
+	</footer>
+	</div>
+</body>
+</html>
+<img src="html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+</body>
+</html>
